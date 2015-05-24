@@ -1,0 +1,76 @@
+.clear{
+	clear: both;
+}
+*{
+	font-family: "宋体";
+	margin: 0px;
+	padding: 0px;
+}
+.f-l{
+	float: left;
+}
+.f-r{
+	float: right;
+}
+header{
+	height: 80px;
+	background-color: #522a5c;
+}
+.container{
+	width: 980px;
+	margin: 0px auto;
+}
+.logo{
+	  float: left;
+	  font-size: 24px;
+	  padding-top: 45px;
+	  color: #FFFFFF;
+}
+.menu{
+	  font-size: 16px;
+	  padding-top: 45px;
+}
+.menu li {
+    float: left;
+    list-style: none;
+}
+.menu ul li a{
+	text-decoration: blink;
+	margin-left: 28px;
+	color: #FFFFFF;
+}
+.logo-pic{
+	  position: absolute;
+	  right: 10px;
+	  top: 45px;
+	  cursor: pointer;
+}
+footer{
+	background-color: black;
+	
+}
+.foot{
+	padding: 10px 0px;
+	text-align: center;
+	border-bottom: 1px solid #522A5C;
+}
+.foot ul li{
+	  display: inline-block;
+  	  margin-left: 28px;
+}
+.foot ul li a{
+	text-decoration: blink;
+	color: #FFFFFF;
+}
+.foot-content dl{
+	float: left;
+	margin-right: 130px;
+	padding-top: 30px;
+}
+.foot-content dl dt{
+	padding-bottom: 30px;
+	color: white;	
+}
+.foot-content dl dd{
+	color: white;	
+}

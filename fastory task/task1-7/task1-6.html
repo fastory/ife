@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>example</title>
+	</head>
+	<style type="text/css">
+		.clear{
+			clear: both;
+		}
+		.step{
+			margin-top: 20px;
+			margin-bottom: 20px;
+		}
+		.step1{
+			padding: 0px 120px 0 120px;
+		}
+		.left{
+			  float: left;
+			  width: 120px;
+			  height: 220px;
+			  background-color: chartreuse;
+			  margin-left: -100%;
+			  left: -120px;
+			  position: relative;
+		}
+		.main{
+			  background-color: aqua;
+ 			  height: 220px;
+ 			  float: left;
+ 			  width: 100%;
+		}
+		.right{
+			float: left;
+			width: 120px;
+			height: 220px;
+			background-color: chartreuse;
+			margin-left: -120px;
+			right: -120px;
+			position: relative;
+		}
+		.left2{
+			float: left;
+			width: 120px;
+			background-color: chartreuse;
+			height: 220px;
+		}
+		.main2{
+			background-color: aqua;
+			height: 220px;
+		}
+		.left3{
+			float: left;
+			width: 120px;
+			background-color: chartreuse;
+			height: 220px;
+		}
+		.left4{
+			float: right;
+			width: 120px;
+			background-color: chartreuse;
+			height: 220px;
+		}
+		.main3{
+			background-color: aqua;
+			height: 220px;
+		}
+		.main4{
+			background-color: aqua;
+			height: 220px;
+			float: left;
+			width: 100%;
+			left: 120px;
+  			position: relative;
+		}
+		.left5{
+			float: left;
+			width: 120px;
+			height: 220px;
+			background-color: chartreuse;
+			margin-left: -100%;
+		}
+		.left6{
+			float: left;
+			width: 120px;
+			background-color: chartreuse;
+			height: 220px;
+		}
+		.main5{
+			margin-left: 0px;
+			margin-right: 0px;
+			margin-bottom: -220px;
+			height: 220px;
+			background-color: aqua;
+		}
+		.left7{
+			float: right;
+			width: 200px;
+			background-color: chartreuse;
+			height: 220px;
+		}
+		.block{
+			height: 50px;
+			width: 220px;
+			background-color: blue; 
+			float: left;
+			margin: 10px 20px;                                                             
+		}
+	</style>         
+		<div class="step step1">
+			中间自适应大小，两边固定宽度方法一
+			<div class="main">
+			自适应大小
+			</div>
+			<div class="left">
+				左边固定
+			</div>
+			
+			<div class="right">
+				右边固定
+			</div>
+			<div class="clear">
+			</div>
+		</div>
+		<div class="step">
+			<div class="">
+				左侧固定宽度,右侧自适应方法一
+			</div>
+			<div class="left2">
+				左边固定
+			</div>
+			<div class="main2">
+				自适应大小
+			</div>
+			<div class="clear">
+			</div>
+		</div>
+		<div class="step">
+			<div class="">
+				中间自适应大小，两边固定宽度方法二
+			</div>
+			<div class="left3">
+				左边固定
+			</div>
+			<div class="main3">
+				中间自适应
+				<div class="left4">
+				右边固定
+				</div>
+			</div>
+			<div class="clear">
+			</div>
+		</div>
+		<div class="step">
+			<div class="">
+				中间自适应大小，两边固定宽度方法三
+			</div>
+			<div class="left6">
+				左边固定
+			</div>
+			<div class="main5">
+				中间自适应
+			</div>
+			<div class="left7">
+				右边固定
+			</div>
+			<div class="clear">
+			</div>
+		</div>
+		<div class="step">
+			<div class="">
+				左侧固定宽度,右侧自适应方法二
+			</div>
+			<div class="main4">
+				自适应大小
+			</div>
+			<div class="left5">
+				左边固定
+			</div>
+			<div class="clear">
+			</div>
+		</div>
+		<div class="step">
+			<div class="block">
+			</div>
+			<div class="block">
+			</div>
+			<div class="block">
+			</div>
+			<div class="block">
+			</div>
+			<div class="block">
+			</div>
+		</div>
+	</body>
+</html>

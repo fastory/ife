@@ -1,0 +1,68 @@
+body {
+	background-color: #999999;
+}
+.banner img {
+	width: 100%;
+}
+.banner .intro-bg {
+	position: relative;
+	width: 980px;
+	margin: 0px auto;
+}
+.wenzi {
+	width: 300px;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	color: #FFFFFF;
+	padding: 5px;
+	background: -webkit-linear-gradient(rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.5) 75%, rgba(255, 255, 255, 0) 100%);
+}
+.wenzi>h2 {
+	text-align: right;
+	margin: 10px;
+	font-size: 14px;
+}
+.wenzi>p {
+	text-indent: 2em;
+	font-size: 12px;
+	margin: 0px 10px 10px 10px;
+}
+.content {
+	width: 980px;
+	margin: 10px auto;
+}
+.all:nth-child(2) {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.content .all {
+	text-align: center;
+	width: 320px;
+	background-color: #FFFFFF;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	height: 320px;
+}
+.detail {
+	width: 300px;
+	padding: 10px;
+}
+.ren {
+	margin: 40px auto;
+	text-align: center;
+	background-color: #FFFFFF;
+}
+.ren h2{
+	margin-bottom: -10px;
+  margin-top: -10px;
+}
+.ren-img {
+	position: relative;
+	bottom: 50px;
+}
+.rwnwu p {
+	width: 470px;
+	margin: 50px auto 20px auto;
+	padding-bottom: 20px;
+}
